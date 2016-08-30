@@ -7,15 +7,1680 @@
 
 .sabia-home > img {
   width: 100%;
-  padding-top: 50px;
 
+}
+
+h2.sobre-sabia-title , h2.suporte-sabia-title  {
+  text-align: center;
+  font-size: 39px !important;
+  color: #2f4e7a !important;
+}
+
+
+
+h2.plataformas-sabia-title {
+  text-align: center;
+  font-size: 50px !important;
+  padding-left: 17px;
+  border-bottom: 1px solid white;
 }
 
 .logo-sabia > a > img {
-  max-width: 40%;
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.social-section {
+  background: #d6865e;
+  padding: 15px;
+  text-align: center;
+}
+
+ul.social-icons {
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-icons li {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+ul.social-icons li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    width: 46px;
+    height: 40px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px solid transparent;
+    background: #d6865e;
+}
+
+ul.social-icons li a i {
+    font-size: 22px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.entrar {
+  color: white;
+  background-color: #d6865e;
+  margin-top: 7px;
+}
+
+.sobre .header, .suporte .header {
+  background-color: white !important;
+}
+
+.sobre .content-box, .suporte .content-box {
+  margin-top: 0;
+}
+
+.sobre .content-box p, .suporte .content-box p{
+  text-align: left;
+  padding: 10px;
+
+}
+
+.produto-logo {
+  background-color: white;
+  border-radius: 50%;
+  max-width: 65%;
+  margin: auto;
+
+}
+
+.produto-logo .wrapper > img {
+  box-sizing: border-box;
+  position: absolute;
+  position: absolute;
+  top: 39px;
+  left: 37px;
+  width: 66%;
+  height: 58%;
+  border: 0px;
+}
+
+.produtos-content-bg {
+  background-color: #96a0a8;
+}
+
+.produtos .header {
+  background-color: #96a0a8 !important;
+
+}
+
+.dados-contador {
+  background-color: #d6865e;
+  text-align: center;
+  font-size: 23px;
+  padding: 22px;
+}
+
+.dados-contador h2{
+  color: white;
+}
+
+.dados-contador p{
+  color: white;
+}
+/*
+================================================================================
+======= Tema Sabiá =============================================================
+================================================================================
+*/
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ *
+ * SABIÁ Main CSS
+ * Author: Ivanilson Melo
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #ec8c67;
+    text-shadow: none;
+}
+
+::selection {
+    background: #ec8c67;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*====================================================*/
+/* General
+/*====================================================*/
+
+body {
+    margin-top: 65px;
+    background-color: #f2f2f2 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #767676;
+}
+
+p, td, th, label {
+    color: #767676;
+}
+
+hr {
+    border-top: 1px solid #f6f6f6;
+}
+
+label {
+    font-weight: normal;
 }
 
 
+
+/*====================================================*/
+/* Custom Navbar
+/*====================================================*/
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #93a4ad;
+}
+.navbar-default .navbar-brand {
+  color: #767676;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #e5ecf0;
+}
+.navbar-default .navbar-text {
+  color: #767676;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #767676;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #e5ecf0;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #e5ecf0;
+  background-color: #93a4ad;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #e5ecf0;
+  background-color: #93a4ad;
+}
+.navbar-default .navbar-toggle {
+  border-color: #93a4ad;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #93a4ad;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #767676;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #767676;
+}
+.navbar-default .navbar-link {
+  color: #767676;
+}
+.navbar-default .navbar-link:hover {
+  color: #e5ecf0;
+}
+
+.navbar-alternate {
+  background-color: #F2F2F2
+}
+
+.navbar-anonymous .navbar-header {
+   height: 4.7em;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #767676;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e5ecf0;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #e5ecf0;
+    background-color: #93a4ad;
+  }
+}
+
+/*====================================================*/
+/* Navbar Elements (Also defines navbar height).
+/*====================================================*/
+.navbar-nav > li > a {
+    /*min-height: 65px;*/
+    line-height: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-default {
+    border-bottom: none;
+}
+
+.navbar-brand > img {
+    height: 2em;
+}
+
+.navbar-header > button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bell-wrapper {
+    background-color: #b03d2e;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #b03d2e;
+
+}
+
+.sc-ico-wrapper {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #4c4c4e;
+    border-radius: 50%;
+    line-height: 2.2em;
+}
+
+.sc-ico-wrapper > img {
+    height: 70%;
+}
+
+.navbar-nav li > a:hover {
+    background-color: #93a4ad !important;
+    color: #e5ecf0 !important;
+}
+
+div.menu-pic-wrapper {
+    float: left;
+}
+
+div.menu-pic-wrapper > img.menu-avatar {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+/*====================================================*/
+/* Container
+/*====================================================*/
+.container {
+    max-width: 960px;
+}
+
+/*====================================================*/
+/* Cover Image
+/*====================================================*/
+.cover-image {
+    /* The height is defined by the height of the
+    image-space container plus the height
+    of the .info-bar container. */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3em;
+}
+
+.image-space {
+    height: 16em;
+}
+
+.info-bar {
+    /* Height is defined by the content */
+    background-color: #ed6732;
+}
+
+.info-bar h1, .info-bar h2, .info-bar h3,
+.info-bar h4, .info-bar h5, .info-bar h6, .info-bar p {
+    color: #fff;
+}
+
+.info-bar h3 {
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+.info-bar p {
+    margin-top: 0px;
+    margin-bottom: .4em;
+}
+
+.nav-sus li, .nav-sus h4 {
+    display: inline;
+}
+
+/*====================================================*/
+/* User Links
+/*====================================================*/
+ol.nav-sus {
+    padding: 1em 0;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+ol.nav-sus a {
+    font-size: 1.15em;
+    color: #fff;
+}
+ol.nav-sus li {
+    margin-right: 1.5em;
+}
+ol.nav-sus li:last-child {
+    margin-right: 0em;
+}
+
+/*====================================================*/
+/* Datepicker Customs
+/*====================================================*/
+.datepicker table tr td span.active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover {
+    background-image: -moz-linear-gradient(center top , #0b4e7f, #0c3d6e) !important;
+}
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active {
+    background-image: -moz-linear-gradient(center top , #0b4e7f, #0c3d6e) !important;
+}
+
+/*====================================================*/
+/* Circular Progress Bar
+/*====================================================*/
+svg {
+    width: 100%;
+    display: block;
+}
+
+.wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.wrapper > #bar, .wrapper > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper > img {
+    /* Needs appropriate vendor prefixes */
+    box-sizing: border-box;
+
+    /* This needs to be equal to strokeWidth */
+    /*padding: 4.5%;*/
+
+    /* Round image corners */
+    /*border-radius: 50%;*/
+
+    border: 2px solid #ed6732;
+}
+
+.wrapper.circle {
+    width: 135px;
+    height: 135px;
+    border-radius: 100%;
+}
+
+.wrapper.circle > img {
+    border-radius: 100%;
+    padding: 0;
+}
+
+.wrapper.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper.with-border {
+    border: 2px solid #5a9c9a;
+}
+
+/* Bootstrap switch */
+span.bootstrap-switch-handle-on.bootstrap-switch-primary {
+    border-radius: 0px;
+    background-color: #0b4e7f !important;
+}
+
+span.bootstrap-switch-handle-off.bootstrap-switch-default {
+    border-radius: 0px;
+}
+
+.bootstrap-switch.bootstrap-switch-wrapper {
+    border-radius: 0px;
+}
+
+.bootstrap-switch.bootstrap-switch-focused {
+    box-shadow: none !important;
+    border-color: #0b4e7f !important;
+}
+
+.radio > .mothers-name > input,
+.radio > .birth-year > input,
+.radio > .birth-day > input {
+    display: none;
+}
+
+/* dev-wip */
+.dropzone {
+    position: relative;
+    height: 135px;
+    width: 135px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    border: 2px solid #7AB4B5;
+}
+
+.dropzone-sm {
+    height: 78px;
+    width: 78px;
+}
+
+.dropzone:hover {
+    color: #FE5;
+}
+
+.dropzone img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.dropzone.dropped {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dropzone-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.dropzone-content p.lead {
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #333;
+}
+
+.dropzone-content span.glyphicon {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.dropzone input[type="file"] {
+    cursor: pointer;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+/* end dev-wip */
+
+.profile-pic {
+    position: absolute;
+    /*left: 50%;
+    margin-left: -100px;*/
+    top: -6em;
+}
+
+.bg-bar {
+    /* gradient bar to improve visibility */
+    width: 100%;
+    height: 50px;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+    z-index: 1;
+    position: relative;
+    top: 150px;
+}
+
+
+/*====================================================*/
+/* Stats Pills
+/*====================================================*/
+.stats {
+    margin-top: 3em;
+}
+
+.stat {
+    background-color: white;
+    padding: 1em;
+}
+
+.stat > h3, .stat p {
+    margin: 0px;
+}
+
+.stat > h3 {
+    margin-top: 0px;
+}
+
+.ico-wrapper {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 1em;
+    margin-left: .2em;
+}
+
+.ico-wrapper > img {
+    width: 100%;
+    position: relative;
+}
+
+
+/*====================================================*/
+/* Content Boxes (custom component)
+/*====================================================*/
+.content-box {
+    background-color: #fff;
+    margin-top: 3em;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.content-box .header {
+    background-color: #93a4ad;
+    padding: 1em;
+}
+
+.content-box > .header > h2 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.content-box > a > .header > h3 {
+    font-size: 18px;
+}
+
+.content-box .content {
+    padding: 1em;
+}
+
+.content-box h2 {
+    margin: 0px;
+}
+
+.content-box h3 {
+    margin: 0px;
+}
+
+.content-box p {
+    margin-bottom: 0px;
+}
+
+/*====================================================*/
+/* Buttons
+/*====================================================*/
+.btn-sc {
+    border-radius: 0px !important;
+    background-color: transparent;
+    border: 1px solid #767676; /* #4d4d4d */
+    color: #767676;
+}
+
+.btn-sc-inverted {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-sc.btn-sm {
+    padding: .3em 1em;
+}
+
+.btn-sc-white {
+    background-color: #fff;
+    border: none;
+    color: #767676;
+}
+
+.btn-icon {
+    padding: 0px !important;
+    height: 2.1em;
+    width: 2.1em;
+    line-height: 1em;
+    text-align: center;
+}
+
+.btn.btn-sc-primary {
+    color: #fff;
+    background-color: #0b4e7f;
+    border: 1px solid #0b4e7f;
+}
+
+.btn.btn-sc-secondary {
+    color: #0b4e7f;
+    background-color: transparent;
+    border: 1px solid #0b4e7f;
+}
+
+.btn-sc-inverted:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-sc-inverted:active {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-connected {
+    color: #000;
+    background-color: #fff;
+}
+
+#btn-connect {
+    margin-top: 1.4em;
+    float: right;
+}
+
+#edit-cover-btn {
+    position: relative;
+    top: 1em;
+    line-height: 1.8em;
+    border: none;
+}
+
+label#edit-cover-btn.btn.btn-sc.btn-sm.btn-icon.btn-sc-inverted {
+    height: 100%;
+    font-size: 1.2em;
+    padding: 0px;
+}
+
+#edit-avatar-btn {
+    z-index: 10;
+    position: absolute;
+    /*top: 11.3em;*/
+    bottom: 1em;
+    left: 1em;
+    /*margin-left: -1.2em;*/
+}
+
+button.btn.btn-sc.btn-sm.btn-icon.btn-sc-inverted {
+    width: 100%;
+    border: none;
+    height: 100%;
+    font-size: 1.2em;
+}
+
+button.btn.btn-sc.btn-sm.btn-icon.btn-sc-inverted:hover {
+    background-color: inherit;
+    text-decoration: underline;
+}
+
+#social-info-btn {
+    text-align: left;
+    background-color: #f6f6f6;
+    color: #767676;
+    border: none;
+    border-radius: 0px;
+    line-height: 2em;
+}
+
+#social-info-btn > .fa {
+    line-height: 2em;
+}
+
+#go-back-btn {
+    background-color: #a8664f;
+    color: white;
+    border: 2px solid #a4624b;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    overflow: hidden;
+}
+
+#go-back-btn:hover {
+    background-color: #ba765f;
+}
+
+/*
+#go-back-btn > img {
+    height: 18px;
+}
+*/
+
+.btn-fb {
+    background-color: #295b8d;
+    border-color: #295b8d;
+    color: #fff;
+}
+
+.btn-fb:hover {
+    background-color: #507eae;
+    color: #fff;
+    border-color: #507eae;
+}
+
+.btn-google {
+    background-color: #b54749;
+    border-color: #b54749;
+    color: #fff;
+}
+
+.btn-google:hover {
+    background-color: #c96365;
+    border-color: #c96365;
+    color: #fff;
+}
+
+/*====================================================*/
+/* Labels
+/*====================================================*/
+.label-sc {
+    background-color: #0b4e7f;
+    border-radius: 0px;
+}
+
+.label-checked {
+    margin-left: 1em
+}
+
+.label-checked:hover {
+    cursor: default;
+}
+
+
+/*====================================================*/
+/* Forms
+/*====================================================*/
+.form-control-sc, .bs-searchbox > input {
+    border-radius: 0px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    box-shadow: none;
+    color: #767676;
+    background-color: #e6e6e6;
+}
+
+.form-control-sc:focus {
+    border: 1px solid #0b4e7f;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-sc {
+    background-color: #f6f6f6;
+}
+
+.form-sc-padded {
+    padding: 1em;
+}
+
+/* for bootstrap select */
+.form-control-sc > button {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.form-error {
+    color: #A50000;
+}
+
+/*====================================================*/
+/* Tables
+/*====================================================*/
+table {
+  table-layout: fixed;
+}
+
+th, td {
+    border-bottom: 1px solid #f6f6f6;
+}
+
+tr.borderless-top > th,
+tr.borderless-top > td {
+    border-top: none !important;
+}
+
+
+table.borderless th,
+table.borderless td,
+table.borderless {
+    border: none !important;
+}
+
+table.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+
+/*====================================================*/
+/* Footer
+/*====================================================*/
+.center-pills {
+    display: inline-block;
+}
+
+footer.footer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+footer .nav-links a {
+    color: #767676;
+}
+
+footer .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/*====================================================*/
+/* Editable
+/*====================================================*/
+.editable-click {
+  border-bottom: 1px dashed #0b4e7f;
+}
+
+.editable-empty {
+    color: #ed6732;
+}
+
+button.btn.btn-sc.btn-sm.btn-sc-primary.editable-submit,
+button.btn.btn-sc.btn-sm.btn-sc-secondary.editable-cancel {
+    width: 2em;
+    text-align: center;
+    padding: .2em;
+    margin: .2em;
+}
+
+.no-pre-wrap {
+    white-space: inherit;
+}
+
+.bio-container .editable-container.editable-inline {
+    display: inline;
+}
+
+.bio-container .editable-input {
+    display: inline;
+}
+
+div.control-group.form-group,
+.form-control.form-control-sc.input-sm.full-width {
+    width: 100%;
+}
+
+/*====================================================*/
+/* File Input
+/*====================================================*/
+#cover-img {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+
+/*====================================================*/
+/* Sortable
+/*====================================================*/
+.sortable > .row {
+    border-bottom: 1px solid #f6f6f6;
+    margin-bottom: .5em;
+    padding-bottom: 1em;
+}
+
+.sortable > .row:last-child {
+    border-bottom: none;
+}
+
+.sortable > .row > div > .action-buttons {
+    margin-top: 10px;
+}
+
+.sortable-chosen {
+    background-color: #f6f6f6;
+}
+
+.sortable-chosen {
+    opacity: 0.5;
+}
+
+.move-btn {
+    cursor: move;
+    line-height: 22px;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+/*====================================================*/
+/* Extras
+/*====================================================*/
+
+.margin-bottom-1 {
+  margin-bottom: 1em;
+}
+
+.margin-bottom-2 {
+  margin-bottom: 2em;
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.margin-top-1 {
+    margin-top: 1em;
+}
+
+.margin-top-2 {
+    margin-top: 2em;
+}
+
+div.modal-content {
+    border-radius: 0px;
+    border: none;
+}
+
+/*====================================================*/
+/* Keyholder
+/*====================================================*/
+.keyholder {
+    text-align: center;
+}
+
+
+/*====================================================*/
+/* Avatar Image Crop (cropit.js)
+/*====================================================*/
+.cropit-preview {
+  /* You can specify preview size in CSS */
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  cursor: move;
+  background-color: #ecf0f1;
+}
+
+/* Hide file input */
+input.cropit-image-input {
+  visibility: hidden;
+}
+
+/* range */
+input[type=range] {
+    /*removes default webkit styles*/
+    -webkit-appearance: none;
+
+    /*fix for FF unable to apply focus style bug */
+    border: 1px solid white;
+
+    /*required for proper track sizing in FF*/
+    width: 324px;
+
+    margin: 2em auto;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ed6732;
+    margin-top: -4px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ed6732;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+    width: 300px;
+    height: 5px;
+
+    /*remove bg colour from the track,
+    we'll use ms-fill-lower and ms-fill-upper instead */
+    background: transparent;
+
+    /*leave room for the larger thumb
+    to overflow with a transparent border */
+    border-color: transparent;
+    border-width: 6px 0;
+
+    /*remove default tick marks*/
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+}
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ed6732;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+}
+
+.cropit-error {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.cropit-error-message {
+    color: #AF5456;
+}
+
+.select-sc{
+    /*
+    border-radius: 20px !important;
+    background-color: transparent;
+    border: 1px solid #74b7b5 !important;
+    */
+}
+
+.select-sc-fix {
+    max-width: 300px;
+}
+
+.fa-times-color{
+  color:#767676;
+}
+
+/*====================================================*/
+/* Login page
+/*====================================================*/
+.social-ou {
+    position: absolute;
+    left: 50%;
+    margin-left: -0.6em;
+    top: 16.9em;
+}
+
+.app-logo {
+    width: 60%;
+}
+
+h3.spaced-header {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    color: #93a4ad;
+}
+
+.lead.subtle {
+    font-size: 1.2em;
+}
+
+/*====================================================*/
+/* Bootstrap-select
+/*====================================================*/
+
+.dropdown-menu.open {
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.select2-container--bootstrap .select2-search--dropdown .select2-search__field {
+    border-radius: 0px;
+    border: 1px solid #0b4e7f;
+    outline: none;
+    box-shadow: none;
+    color: #767676;
+    background-color: #e6e6e6;
+}
+
+.select2-container--bootstrap .select2-search--dropdown .select2-search__field {
+    border: 1px solid #0b4e7f;
+    outline: none;
+    box-shadow: none;
+}
+
+.parsley-required,
+.parsley-custom-error-message {
+    color: #a94442;
+}
+
+/*====================================================*/
+/* Privacidade, Segurança e Suporte
+/*====================================================*/
+.header-image {
+    height: 28em;
+    background-position: top;
+    background-size: cover;
+}
+
+.help-panel {
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #767676;
+}
+
+.help-panel > .help-panel-header {
+    border: 1px solid #808080;
+    padding: .1em;
+    cursor: pointer;
+}
+
+.help-panel > .help-panel-content {
+    border: 1px solid #808080;
+    border-top: none;
+    padding: .5em;
+}
+
+.help-panel-active {
+    background-color: #93a4ad;
+    color: #fff;
+    border: 1px solid #93a4ad;
+}
+
+.img-responsive-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.blue-header {
+    color: #0b4e7f;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.white-bg ul > li {
+    color: #767676;
+}
+
+/*====================================================*/
+/* Cursos e Relatos
+/*====================================================*/
+.course {
+    border: 1px solid #767676;
+    margin-bottom: 1em;
+}
+
+.course > .info {
+    padding: 1em;
+}
+
+.course > .pic {
+    background-color: #000;
+}
+
+.course > .pic > img {
+    width: 100%;
+}
+
+.relato {
+    border: 1px solid #767676;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.relato:last-child {
+    margin-bottom: 0px;
+}
+
+.relato img {
+    width: 100%;
+}
+
+img.relato-autor-img {
+    height: 40px;
+    width: 40px;
+}
+
+.publicado-data {
+    margin-left: 4em;
+    line-height: 2.8em;
+}
+
+.btn-sc-secondary.btn-go {
+    border-color: #767676;
+    color: #767676;
+    margin-top: 3em;
+}
+
+a.btn.btn-sc.btn-sc-secondary.go-to-course {
+    color: white;
+    border-color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+    z-index: 2;
+    display: none;
+}
+
+/*====================================================*/
+/* Modal Tour
+/*====================================================*/
+.modal-header.tour {
+    padding: 0px;
+    background-color: #ed6732;
+    color: #fff;
+}
+
+/*
+.modal-header-content {
+    padding: 15px;
+}*/
+
+#tour-img-profile-pic {
+    width: 100%;
+}
+
+.datepicker {
+    z-index:1151 !important;
+}
+
+.complete-icon {
+    color: #0b4e7f;
+}
+
+.tour-content h3 {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*.bs-wizard {margin-top: 40px;}*/
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; }
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.img-align-right{
+  text-align: right;
+}
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 992px) {
+    /* Style adjustments for viewports that meet the condition */
+
+    .profile-pic {
+        /*top: -23.5em;*/
+        position: absolute;
+        top: -17em;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    .info-bar {
+        text-align: center;
+    }
+
+    #btn-connect {
+        margin: 1.8em;
+        float: none;
+    }
+
+/*
+    #edit-avatar-btn {
+        top: 12em;
+        margin-left: -1.2em;
+    }
+*/
+/*
+    #go-back-btn {
+        margin-top: 22em;
+    }
+*/
+
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+/*
+================================================================================
+================================================================================
+================================================================================
+*/
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
