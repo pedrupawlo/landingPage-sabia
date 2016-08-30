@@ -91,7 +91,7 @@ ul.social-icons li a i {
   bottom: 1px;
   left: 7px;
 }
-.sobre .header, .suporte .header {
+.sobre .header, .suporte .header, .vantagens .header {
   background-color: white !important;
 }
 
@@ -182,7 +182,28 @@ ul.social-icons li a i {
   height: 41px;
 }
 
+h2.vantagens-sabia-title {
+  text-align: center;
+  font-size: 39px !important;
+  color: #2f4e7a !important;
+  border-bottom: 1px solid #e6e9ed;
+  padding-bottom: 6px;
+}
 
+.vantagens .content-box .header > h2 {
+  color: #2f4e7a !important;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.vantagens .ico-wrapper {
+    border: 1px solid;
+    margin: auto;
+    padding: 5px;
+    width: 65px;
+    height: 65px;
+    background-color: transparent;
+}
 /*
 ================================================================================
 ======= Tema Sabiá =============================================================
